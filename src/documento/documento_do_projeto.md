@@ -1,0 +1,1 @@
+Cole o conteúdo formal do projeto que detalha a solução, o público-alvo, a metodologia e a tecnologia utilizada.
