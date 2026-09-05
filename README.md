@@ -13,6 +13,10 @@
   * `diagram.json`: Estrutura a montagem visual das portas e as ligações físicas entre o ESP32 e os sensores.
   * `platformio.ini`: Atua na definição do projeto, gerenciando o ambiente de compilação, as placas utilizadas e a importação automática de bibliotecas externas (como a biblioteca do sensor DHT).
   * `wokwi.toml`: Atua nos bastidores configurando os parâmetros de execução e os binários gerados para que a simulação rode perfeitamente no ambiente de desenvolvimento do VS Code.
+* **Visualização da Arquitetura (Circuito Wokwi):**
+  
+  ![Circuito do Wokwi](./circuito_wokwi.png)
+
 * **Persistência de Dados e Dashboard:** Os dados simulados e monitorados são processados através da interface interativa em Python (`app.py`) utilizando Streamlit e Pandas, com persistência local em formato estruturado (`sensor_data.json`).
 
 ## 3. Instruções de Execução para Avaliação
